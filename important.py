@@ -53,9 +53,9 @@ async def send(ctx, *, content: str):
         c = await member.create_dm()
         try:
             await c.send(content)
-            await ctx.send("Message Sent to Targets")
+            await ctx.send("DONE")
         except:
             await ctx.send("DM can't send to : {} :x: ".format(member))
 
 
-bot.run("NzQ2NjU0NzQ2MzcwMjQ0NzA4.X0Deaw.yr95LwYUKhbNMmHtN5zwXRUU5kc")
+bot.run("NzQ2NjU0NzQ2MzcwMjQ0NzA4.X0Deaw.M44djj6LA_8D3cPmRiwmwrj5Ofc")
